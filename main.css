@@ -1,0 +1,252 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.header {
+    padding-top: 24px;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__list {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+}
+
+.header__link {
+    text-decoration: none;
+    color: #222222;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.img {
+    padding-bottom: 10px;
+    padding-left: 16px;
+}
+
+.header__btn {
+    box-sizing: border-box;
+    border: 2px solid rgb(222, 46, 84);
+    border-radius: 8px;
+    color: #de2e54;
+    background: rgb(255, 255, 255);
+    padding: 24px;
+}
+
+.section__text {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 120%;
+    width: 500px;
+    text-align: center;
+    padding-top: 137px;
+}
+
+.wrapper {
+    background-image: url("./images/image\ 4\ \(3\).png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+}
+
+.section__btn {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    background: rgba(222, 46, 84, 0.8);
+    border: none;
+    padding: 24px;
+    margin-top: 48px;
+}
+
+.section__image {
+    width: 408px;
+}
+
+.section__title {
+    display: flex;
+}
+
+.section__h1 {
+    /* Big heading */
+    color: rgb(0, 0, 0);
+    font-family: "Open Sans";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.containera {
+    max-width: 834px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.section__item {
+    display: flex;
+
+}
+
+.section__h5 {
+    color: #222222;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 120%;
+    padding: 56px 34px 64px;
+}
+
+.section_p {
+    display: flex;
+    padding-left: 38px;
+    /* Body text */
+    color: #444444;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.sectionimag {
+    display: flex;
+    justify-content: end;
+    margin-top: 100px;
+}
+
+.section_p1 {
+    display: flex;
+    color: #444444;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0px;
+
+}
+
+.main {
+    margin-top: 117px;
+}
+
+.section__texx {
+    display: flex;
+}
+
+.section__h {
+    color: #222222;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0px;
+    text-align: left;
+    padding-bottom: 56px;
+
+}
+
+.main_h1 {
+    text-align: center;
+    margin-bottom: 90px;
+    font-size: 50px;
+}
+
+.section__wrapper {
+    background: rgb(14, 180, 193);
+    ] width: 1440px;
+    height: 669px;
+}
+
+input {
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #3d3b48;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0.25px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.form__teg {
+    background-color: #ffffff;
+    width: 400px;
+    padding: 27px 40px;
+    border-radius: 10px;
+
+}
+
+.div {
+    display: flex;
+    gap: 68px;
+    margin-left: 50px;
+}
+
+.footer {
+    width: 1440px;
+    height: 97px;
+    background: #222222;
+    display: flex;
+}
+.imae{
+    padding:
+24px ;
+display: flex;
+}
+
+.footer__link{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: 1s ease-in-out;
+}
+
+.footer__link:hover{
+    color: #de2e54;
+    transition: 1s ease-in-out;
+}
+.footer__ul{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 300px;
+}
